@@ -1,0 +1,423 @@
+body{
+    background-color: #141212;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0px;
+    padding: 0;
+}
+
+/*Global*/
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.clr{
+    float: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FA4616;
+}
+
+#main-header{
+    background-color: #232222a6;
+    min-height: 50px;
+}
+
+#main-header h1{
+    margin-left: 10px;
+    color: #FA4616;
+}
+
+#main-header #branding{
+    float: left;
+}
+
+#main-nav{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 15px;
+}
+
+#main-nav a:hover{
+    color: #ffccbe;
+    background-color:#b32700 ;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+#main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 17px;
+    font-size: large;
+
+}
+
+#main-nav li{
+    display: inline;
+    text-decoration: none;
+    float: left;
+}
+
+#showcase{
+    margin-bottom: 1.5%;
+    background-position: center center;
+}
+
+#background{
+    background-image: url(back.jpg);
+    background-position: center center;
+    background-repeat: none;
+}
+
+#showcase h1{
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 180px;
+}
+
+#showcase p{
+    text-align: center;
+    font-size: 20px ;
+}
+
+.containersign{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 22px ;
+}
+
+.containersign a{
+    color: white;
+}
+
+.containersign a:hover{
+    box-shadow: 0 0 30px #fd3700 ; 
+}
+
+#sign{
+    background-color: #ef4516;
+    box-shadow: 0 0 8px #ff4511 ; 
+    text-shadow: 0 0 10px#ff5729;
+    font-family: "Unbounded", sans-serif;
+    padding: 0.7%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    border: none;
+    margin-bottom: 50px;
+}
+
+#boxes h2{
+    color: #FA4616;
+}
+
+#newsletter{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#newsletter input{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+}
+
+#newsletter input:hover{
+    box-shadow: 0 0 5px #ac2702 ; 
+
+}
+
+#newsletter button{
+    background-color: #ef4516;
+    box-shadow: 0 0 5px #ff4511 ; 
+    text-shadow: 0 0 10px#ff5729;
+    font-family: "Unbounded", sans-serif;
+    padding: 0.7%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#newsletter button:hover{
+    box-shadow: 0 0 10px #fd3700 ; 
+
+}
+
+footer{
+    text-align: center;
+}
+
+footer h4{
+    background-color:#232222a6;
+    padding-bottom: 5%;
+    padding-top: 1%;
+
+}
+
+footer h3{
+    display: inline-block;
+}
+
+footer h1{
+    display: inline-block;
+    color: #FA4616;
+}
+
+@media (max-width: 800px){
+    .box{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    #main-nav{
+        display: none;
+    }
+
+body{
+    background-color: #141212;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0px;
+    padding: 0;
+}
+
+/*Global*/
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.clr{
+    float: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FA4616;
+}
+
+#main-header{
+    background-color: #232222a6;
+    min-height: 50px;
+}
+
+#main-header h1{
+    margin-left: 10px;
+    color: #FA4616;
+}
+
+#main-header #branding{
+    float: left;
+}
+
+#main-nav{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 15px;
+}
+
+#main-nav a:hover{
+    color: #ffccbe;
+    background-color:#b32700 ;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+#main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 17px;
+    font-size: large;
+
+}
+
+#main-nav li{
+    display: inline;
+    text-decoration: none;
+    float: left;
+}
+
+#showcase{
+    margin-bottom: 1.5%;
+    background-position: center center;
+}
+
+#background{
+    background-image: url(./Images/back.jpg);
+    background-position: center center;
+    background-repeat: none;
+}
+
+#showcase h1{
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 180px;
+}
+
+#showcase p{
+    text-align: center;
+    font-size: 20px ;
+}
+
+.containersign{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 22px ;
+}
+
+.containersign a{
+    color: white;
+}
+
+.containersign a:hover{
+    box-shadow: 0 0 30px #fd3700 ; 
+}
+
+#sign{
+    background-color: #ef4516;
+    box-shadow: 0 0 8px #ff4511 ; 
+    text-shadow: 0 0 10px#ff5729;
+    font-family: "Unbounded", sans-serif;
+    padding: 0.7%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    border: none;
+    margin-bottom: 50px;
+}
+
+#boxes h2{
+    color: #FA4616;
+}
+
+#newsletter{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#newsletter input{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+}
+
+#newsletter input:hover{
+    box-shadow: 0 0 5px #ac2702 ; 
+
+}
+
+#newsletter button{
+    background-color: #ef4516;
+    box-shadow: 0 0 5px #ff4511 ; 
+    text-shadow: 0 0 10px#ff5729;
+    font-family: "Unbounded", sans-serif;
+    padding: 0.7%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#newsletter button:hover{
+    box-shadow: 0 0 10px #fd3700 ; 
+
+}
+
+footer{
+    text-align: center;
+}
+
+footer h4{
+    background-color:#232222a6;
+    padding-bottom: 5%;
+    padding-top: 1%;
+
+}
+
+footer h3{
+    display: inline-block;
+}
+
+footer h1{
+    display: inline-block;
+    color: #FA4616;
+}
+
+@media (max-width: 800px){
+    .box{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    #main-nav{
+        display: none;
+    }
