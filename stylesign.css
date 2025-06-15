@@ -1,25 +1,122 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Marx | Sign Up</title>
-        <link rel="stylesheet" href="stylesign.css">
-    </head>
-    <body>
-        <div class="container-border">
-                
-            <div class="container-sign">
-                <h1><a href="index.html" id="link">Marx</a></h1> 
-                <p>Create an account now to discover millions of agents online.</p>
-                <form action="index.html" id="form">
-                    <label for="email"> E-Mail </label>
-                    <input type="email" name="email" id="email" placeholder="E-Mail">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Passwd">
-                    <input type="button" id="button" value="Let's go">
-                    <h7 id="divider">─────────────────────  and  ─────────────────────</h7>
-                    <h7 id="terms">By signing up, you agree to our terms and conditions.</h7>
-                </form>
-            </div>
-        </div>
-    </body>
-</html>
+body{
+    background-color: #000000e1;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #FA4616;
+    font-size: 45px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#link{
+    text-decoration: none;
+    color: #FA4616;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 35px 40px 35px;
+}
+
+.container-sign{
+    border: grey solid 1px;
+    width: 420px;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding-bottom: 80px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form label{
+    margin-left:50px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+#email , #password{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width:75% ;
+    padding: 2%;
+    margin: 1%;
+    border: gray 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+    background-color: #252525;
+    transition: all 0.15s ease-in-out;
+    color: white;
+}
+
+#email:focus, #password:focus {
+    border: 2px #f43500 solid;
+    outline: none;
+    background-color: #252525;
+
+}
+
+#button{
+    width: 75%;
+    display: flex;
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 80%;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    background-color: #e73200;
+    color: white;
+    box-shadow: 0 0 5px #ff4511 ; 
+
+}
+
+#button:hover{
+    background-color: #ff3700;
+    transition: all 0.1s ease-in-out;
+}
+
+#divider{
+    margin-top: 25px;
+    display: flex;
+    align-self: center;
+    font-size: 10px;
+    color: #565656;
+}
+
+#terms{
+    margin-top: 10px;
+    display: flex;
+    align-self: center;
+    font-size: 12px;
+    color: #c6c6c6;
+    width: 80%;
+    text-align: center;
+}
